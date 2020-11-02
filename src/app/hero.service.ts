@@ -21,6 +21,7 @@ export class HeroService {
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
+  
 
   /** GET heroes from the server */
   getHeroes(): Observable<Hero[]> {
